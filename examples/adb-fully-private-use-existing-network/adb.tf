@@ -2,7 +2,7 @@
 ## All rights reserved. The Universal Permissive License (UPL), Version 1.0 as shown at http://oss.oracle.com/licenses/upl
 
 module "oci-adb" {
-  source                                = "github.com/oracle-devrel/terrafom-oci-arch-adb"
+  source                                = "github.com/oracle-devrel/terraform-oci-arch-adb"
   adb_database_db_name                  = "myadw"
   adb_database_display_name             = "myadw"
   adb_password                          = var.adb_password
